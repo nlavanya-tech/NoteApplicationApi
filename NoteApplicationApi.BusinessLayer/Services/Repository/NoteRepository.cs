@@ -71,7 +71,6 @@ namespace NoteApplicationApi.BusinessLayer.Services.Repository
             try
             {
                 FilterDefinition<Notes> filter = Builders<Notes>.Filter.Eq(m => m.Id, id);
-
                 DeleteResult deleteResult = await _context.notes.DeleteOneAsync(filter);
                 bool result = deleteResult.IsAcknowledged && deleteResult.DeletedCount > 0;
                 return result;

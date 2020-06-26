@@ -17,6 +17,7 @@ namespace NoteApplicationApi.Controllers
         public StatusController(INoteService service)
         {
             _service = service;
+
         }
         // GET: api/Status
         [HttpGet]
