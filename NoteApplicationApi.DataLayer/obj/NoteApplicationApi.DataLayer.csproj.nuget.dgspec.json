@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.DataLayer\\NoteApplicationApi.DataLayer.csproj": {}
+    "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.DataLayer\\NoteApplicationApi.DataLayer.csproj": {}
   },
   "projects": {
-    "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.DataLayer\\NoteApplicationApi.DataLayer.csproj": {
+    "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.DataLayer\\NoteApplicationApi.DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.DataLayer\\NoteApplicationApi.DataLayer.csproj",
+        "projectUniqueName": "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.DataLayer\\NoteApplicationApi.DataLayer.csproj",
         "projectName": "NoteApplicationApi.DataLayer",
-        "projectPath": "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.DataLayer\\NoteApplicationApi.DataLayer.csproj",
+        "projectPath": "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.DataLayer\\NoteApplicationApi.DataLayer.csproj",
         "packagesPath": "C:\\Users\\bizruntime\\.nuget\\packages\\",
-        "outputPath": "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.DataLayer\\obj\\",
+        "outputPath": "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.Entities\\NoteApplicationApi.Entities.csproj": {
-                "projectPath": "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.Entities\\NoteApplicationApi.Entities.csproj"
+              "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.Entities\\NoteApplicationApi.Entities.csproj": {
+                "projectPath": "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.Entities\\NoteApplicationApi.Entities.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.Entities\\NoteApplicationApi.Entities.csproj": {
+    "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.Entities\\NoteApplicationApi.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.Entities\\NoteApplicationApi.Entities.csproj",
+        "projectUniqueName": "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.Entities\\NoteApplicationApi.Entities.csproj",
         "projectName": "NoteApplicationApi.Entities",
-        "projectPath": "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.Entities\\NoteApplicationApi.Entities.csproj",
+        "projectPath": "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.Entities\\NoteApplicationApi.Entities.csproj",
         "packagesPath": "C:\\Users\\bizruntime\\.nuget\\packages\\",
-        "outputPath": "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.Entities\\obj\\",
+        "outputPath": "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

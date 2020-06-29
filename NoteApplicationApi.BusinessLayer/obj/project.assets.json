@@ -5548,11 +5548,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.BusinessLayer\\NoteApplicationApi.BusinessLayer.csproj",
+      "projectUniqueName": "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.BusinessLayer\\NoteApplicationApi.BusinessLayer.csproj",
       "projectName": "NoteApplicationApi.BusinessLayer",
-      "projectPath": "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.BusinessLayer\\NoteApplicationApi.BusinessLayer.csproj",
+      "projectPath": "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.BusinessLayer\\NoteApplicationApi.BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\bizruntime\\.nuget\\packages\\",
-      "outputPath": "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.BusinessLayer\\obj\\",
+      "outputPath": "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5571,11 +5571,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.DataLayer\\NoteApplicationApi.DataLayer.csproj": {
-              "projectPath": "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.DataLayer\\NoteApplicationApi.DataLayer.csproj"
+            "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.DataLayer\\NoteApplicationApi.DataLayer.csproj": {
+              "projectPath": "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.DataLayer\\NoteApplicationApi.DataLayer.csproj"
             },
-            "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.Entities\\NoteApplicationApi.Entities.csproj": {
-              "projectPath": "I:\\IIHT\\Note App\\project\\JuniorFSE\\NoteApplicationApi\\NoteApplicationApi.Entities\\NoteApplicationApi.Entities.csproj"
+            "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.Entities\\NoteApplicationApi.Entities.csproj": {
+              "projectPath": "I:\\IIHT\\Note App\\JuniorFSE\\Project\\NoteApplicationApi\\NoteApplicationApi.Entities\\NoteApplicationApi.Entities.csproj"
             }
           }
         }
