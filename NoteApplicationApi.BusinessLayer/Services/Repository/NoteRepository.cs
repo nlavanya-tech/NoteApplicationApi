@@ -15,6 +15,7 @@ namespace NoteApplicationApi.BusinessLayer.Services.Repository
         {
             _context = context;
         }
+        //Get call from Noteservice to read all Notes from Mongo DB
         public async Task<IEnumerable<Notes>> ReadAsync()
         {
             try
@@ -27,6 +28,8 @@ namespace NoteApplicationApi.BusinessLayer.Services.Repository
                 throw (ex);
             }
         }
+
+        //Get call from Noteservice to read Notes based on id from Mongo DB
         public async Task<Notes> ReadIdAsync(int id)
         {
             try
@@ -40,7 +43,7 @@ namespace NoteApplicationApi.BusinessLayer.Services.Repository
                 throw (ex);
             }
         }
-
+        //Get call from Noteservice to Create Note from Mongo DB
         public async Task<Notes> CreateAsync(Notes notes)
         {
             try
@@ -53,6 +56,7 @@ namespace NoteApplicationApi.BusinessLayer.Services.Repository
                 throw (ex);
             }
         }
+        //Get call from Noteservice to Update Note Based on Id from Mongo DB
         public async Task<Notes> UpdateAsync(int id ,Notes notes)
         {
             try
@@ -66,6 +70,7 @@ namespace NoteApplicationApi.BusinessLayer.Services.Repository
                 throw (ex);
             }
         }
+        //Get call from Noteservice to Create Note Based on Id from Mongo DB
         public async Task<bool> DeleteAsync(int id)
         {
             try

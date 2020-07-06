@@ -10,11 +10,13 @@ namespace NoteApplicationApi.DataLayer.Context
    public class MongoDbContext : IMongoDbContext
     {
         private readonly IMongoDatabase _db;
+        //Create context of Mongo DB
         public MongoDbContext(IOptions<MongoDbSetting> options)
         {
             var client = new MongoClient(options.Value.ConnectionString);
             _db = client.GetDatabase(options.Value.Database);
         }
+        //Get All notes Collection from MongoDB
         public IMongoCollection<Notes> notes => _db.GetCollection<Notes>("notes");
     }
 }

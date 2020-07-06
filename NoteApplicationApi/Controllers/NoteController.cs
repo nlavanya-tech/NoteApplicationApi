@@ -17,8 +17,9 @@ namespace NoteApplicationApi.Controllers
         public NoteController(INoteService service)
         {
             _service = service;
-        }        
+        }
         // GET: api/Note
+        //This Method Gets Request Call from User to Read Notes.
         [HttpGet]
         public async Task<IEnumerable<Notes>> GetAllNotes()
         {
@@ -26,6 +27,7 @@ namespace NoteApplicationApi.Controllers
             return notes;
         }
         // POST: api/Notes
+        //This Method Gets Request Call from User to Create Notes.
         [HttpPost]
         public async void SubmitNotes([FromBody] Notes notes)
         {
@@ -33,6 +35,7 @@ namespace NoteApplicationApi.Controllers
         }
 
         // PUT: api/Notes/5
+        //This Method Gets Request Call from User to Update Notes.
         [HttpPut("{id}")]
         public async void UpdateNotes(int id, [FromBody] Notes notes)
         {
@@ -40,6 +43,7 @@ namespace NoteApplicationApi.Controllers
         }
 
         // DELETE: api/ApiWithActions/5
+        //This Method Gets Request Call from User to Delete Notes.
         [HttpDelete("{id}")]
         public async void DeleteNotes(int id)
         {

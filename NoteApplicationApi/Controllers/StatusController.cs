@@ -20,6 +20,7 @@ namespace NoteApplicationApi.Controllers
 
         }
         // GET: api/Status
+        //This Method Gets Request Call from User to Read Notes.
         [HttpGet]
         public async Task<IEnumerable<Notes>> GetAllStatus()
         {
